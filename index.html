@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced HTML5 Elements and Forms</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1> Elements and Forms</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>Ordered List</h2>
+    <ol style="list-style: lower-roman;">
+      <li>Introduction to HTML5</li>
+      <li>HTML5 Multimedia Elements</li>
+      <li>HTML5 Forms and Validation</li>
+    </ol>
+  </section>
+
+  <!-- External Image -->
+  <section>
+    <h2>External Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg" alt="Beautiful Landscape" width="600" />
+  </section>
+
+  <!-- Contact Table -->
+  <section>
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="8">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Dineo Madisha</td><td>123 Maple St</td><td>0785648975</td><td>DineoMadisha@gmail.com</td></tr>
+        <tr><td>Bongi Johnson</td><td>456 Oak Ave</td><td>0798546625</td><td>BongiJohnson@gmail.com</td></tr>
+        <tr><td>Carol Lerato</td><td>789 Pine Rd</td><td>0865241369</td><td>CarolLerato@gmail.com</td></tr>
+        <tr><td>David Kimbi</td><td>321 Birch Blvd</td><td>0658798546</td><td>DavidKimbi@gmail.com</td></tr>
+        <tr><td>Eva Brown</td><td>654 soshanguve </td><td>0789858585</td><td>EvaBrown@gmail.com</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+      <!-- Name -->
+      <label for="name">Full Name:</label><br />
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required /><br /><br />
+
+      <!-- Email -->
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" placeholder="Enter your email" required /><br /><br />
+
+      <!-- Password -->
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" name="password" placeholder="Choose a password" minlength="6" required /><br /><br />
+
+      <!-- Date of Birth -->
+      <label for="dob">Date of Birth:</label><br />
+      <input type="date" id="dob" name="dob" required /><br /><br />
+
+      <!-- Dropdown -->
+      <label for="country">Country:</label><br />
+      <select id="country" name="country" required>
+        <option value="">--Select your country--</option>
+        <option value="za">South Africa</option>
+        <option value="us">United States</option>
+        <option value="uk">United Kingdom</option>
+      </select><br /><br />
+
+      <!-- Radio Buttons -->
+      <label>Gender:</label><br />
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br /><br />
+
+      <!-- Checkboxes -->
+      <label>Interests:</label><br />
+      <input type="checkbox" id="coding" name="interests" value="coding" />
+      <label for="coding">Coding</label><br />
+      <input type="checkbox" id="music" name="interests" value="music" />
+      <label for="music">Music</label><br />
+      <input type="checkbox" id="sports" name="interests" value="sports" />
+      <label for="sports">Sports</label><br /><br />
+
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 bongani sekwadi</p>
+  </footer>
+</body>
+</html>

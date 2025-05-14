@@ -1,0 +1,67 @@
+form {
+    width: 400px;
+    margin: 0 auto; /* Horizontally centers the form */
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+  }
+  
+  /* ID selector */
+  #name {
+    border: 2px solid #4CAF50;
+    padding: 8px;
+    width: 250px;
+  }
+  
+  /* Class selector */
+  .section-heading {
+    color: #1e90ff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Image styling */
+  img {
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Table styling */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
